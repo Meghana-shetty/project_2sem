@@ -2,9 +2,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: minikube-cluster-view
+  name: cafestatic
   annotations:
-    backstage.io/kubernetes-id: minikube
+    backstage.io/kubernetes-id: cafestatic
 spec:
   type: service
   owner: user:guest
