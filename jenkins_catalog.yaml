@@ -2,9 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: jenkins_java
-  label:
-    annotations:
-      jenkins.io/job-full-name: "java_maven_jar"
+  annotations:
+    jenkins.io/job-full-name: "java_maven_jar"
 spec:
   type: service
   owner: user:guest
