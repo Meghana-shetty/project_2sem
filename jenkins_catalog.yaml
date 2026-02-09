@@ -1,1 +1,9 @@
-dXNlcm5hbWU6QVBJX1RPS0VO
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    jenkins.io/job-full-name: "java_maven_jar"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
