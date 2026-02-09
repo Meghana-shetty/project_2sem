@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: jenkins_java
   annotations:
-    jenkins.io/job-full-name: "java_maven_compile"
+    jenkins.io/job-full-name: "java_maven_jar"
 spec:
   type: service
   owner: user:guest
